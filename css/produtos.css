@@ -1,0 +1,67 @@
+body, ul {
+    margin: 0px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.foto1, .foto2, .foto3 {
+    height: 400px;
+    width: 600px;
+    float: left;
+    margin-right: 15px;
+}
+
+.produto {
+    height: 430px;
+    width: 900px;
+    padding: 10px;
+    background: white;
+}
+
+.nota {
+  width: 350px;
+  position: fixed;
+  top: 80px;
+  left: 50px;
+  border: 2px solid black;
+ }
+ 
+ .nota-topo {
+   padding: 15px 50px;
+   background: rgb(150, 30, 30);
+   font-size: 45px;
+   color: white;
+ }
+ 
+ .nota-texto {
+   height: 80px;
+   padding: 15px;
+   background-color: white;
+   color: black;
+ }
+ 
+ .fechar {
+   position: absolute;
+   top: 5px;
+   right: 15px;
+   color: white;
+   font-size: 30px;
+   cursor: pointer;
+ }
+ 
+ .fechar:hover {
+   color: black;
+ } 
+
+
+
+

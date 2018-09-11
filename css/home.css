@@ -1,0 +1,92 @@
+body, ul {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.produtos {
+    height: 600px;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #72ADAD;
+    text-align: center;
+}
+
+.produto1, .produto2, .produto3 {
+    height: 480px;
+    width: 400px;
+    background-color: #72ADAD;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.fotos {
+    height: 280px;
+    width: 370px;
+}
+
+.info {
+    height: 430px;
+    width: 580px;
+    background: rgba(100, 100, 100, 0.3);
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+.slideshow {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: #72ADAD;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active:hover {
+  background-color: #717171;
+}
+
+
+
